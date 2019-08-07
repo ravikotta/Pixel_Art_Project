@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 30px;
+  margin: 1.5em;
+}
+
+
+h2:first-of-type {
+  margin-top: 0.5em;
+
+}
+
+table, tr, td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  height: 25px;
+}
+
+td {
+  width: 25px;
+}
+
+input[type=submit], [type=reset]{
+  background-color: #4CAF50;
+  cursor: pointer;
+}
+
+input[type=number] {
+  width: 4em;
+}
